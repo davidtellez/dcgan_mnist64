@@ -2,8 +2,11 @@
 
 Implementation of a DCGAN system to generate realistic MNIST digits at 64x64 resolution in Tensorflow. After 40 epochs of training, you should get these results:
 
-images of real and fake mnist
-images training tensorboard
+[Real MNIST images](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/epoch_0000_x.png)
+[Artificial MNIST images](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/epoch_0040_g.png)
+
+[Loss](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/loss.png)
+[Discriminator output](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/discriminator_output.png.png)
 
 ### Usage
 
@@ -23,6 +26,3 @@ images training tensorboard
 - [Generative Adversarial Networks](http://arxiv.org/abs/1406.2661)
 - [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434)
 - [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
-
-
-
