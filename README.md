@@ -1,2 +1,27 @@
-# dcgan_mnist64
-DCGAN system to generate realistic MNIST digits at 64x64 resolution
+### DCGAN MNIST 64x64
+
+Implementation of a DCGAN system to generate realistic MNIST digits at 64x64 resolution in Tensorflow. 
+
+images of real and fake mnist
+images training tensorboard
+
+### Usage
+
+launch notebook, start training
+monitor with tensorboard
+feel free to modify data_handler to include your own data
+
+### Requisites
+
+- [Anaconda Python 3.5](https://www.continuum.io/downloads)
+- [Tensorflow 0.12.0-rc1](https://www.tensorflow.org/)
+- GPU for fast training (although CPU-only is supported and pre-trained models are provided)
+
+### References
+
+[Generative Adversarial Networks](http://arxiv.org/abs/1406.2661)
+[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434)
+[Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
+
+
+
