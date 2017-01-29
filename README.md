@@ -2,11 +2,11 @@
 
 Implementation of a DCGAN system to generate realistic MNIST digits at 64x64 resolution in Tensorflow. After 40 epochs of training, you should get these results:
 
-[Real MNIST images](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/epoch_0000_x.png)
-[Artificial MNIST images](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/epoch_0040_g.png)
+![Artificial MNIST images](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/epoch_0040_g.png)
 
-[Loss](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/loss.png)
-[Discriminator output](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/discriminator_output.png.png)
+![Loss](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/loss.png)
+
+![Discriminator output](dcgan_mnist64/tensorboard/20170129183030_mnist64_jupyter/plots/discriminator_output.png.png)
 
 ### Usage
 
