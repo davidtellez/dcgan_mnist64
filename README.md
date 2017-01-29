@@ -1,9 +1,9 @@
 ### DCGAN MNIST 64x64
 
-Implementation of a DCGAN system to generate realistic MNIST digits at 64x64 resolution in Tensorflow. After 40 epochs of training, you should get these results:
+Implementation of Deep Convolutional Generative Adversarial Networks to generate realistic MNIST digits at 64x64 resolution in Tensorflow. After 40 epochs of training, you should get these results:
 
 <p align="center">
-<img src="/tensorboard/20170129183030_mnist64_jupyter/plots/epoch_0040_g.png" alt="Artificial MNIST images" height="200">
+<img src="/tensorboard/20170129183030_mnist64_jupyter/plots/animation.gif" alt="Artificial MNIST images" height="300">
 
 <img src="/tensorboard/20170129183030_mnist64_jupyter/plots/loss.png" alt="Loss" height="200">
 
